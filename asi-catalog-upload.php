@@ -48,7 +48,7 @@
       <h1>ASI/Attentive Catalog Uploads</h1>
       <p>
         <?php 
-          $output = shell_exec("python catalog-upload.py asi-attentive-product-feed-xs.json --validateOnly true --apiKey bW9PeWh1WDVVd3U5YzBmNUtZeWcwclZQQjJkTXdiU2YxcVVw");
+          $output = shell_exec("python catalog-upload.py asi-attentive-product-feed-xs.json --validateOnly true --apiKey {{ YOUR API KEY HERE!!! }}");
           echo 'Response:' . $output; 
         ?>  
       </p>
