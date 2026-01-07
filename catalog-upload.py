@@ -7,7 +7,7 @@ import datetime;
 from distutils.util import strtobool
 
 ct = datetime.datetime.now()
-API_KEY = 'bW9PeWh1WDVVd3U5YzBmNUtZeWcwclZQQjJkTXdiU2YxcVVw'  # Set this
+API_KEY = 'YOUR API KEY HERE'  # Set this
 API_BASE_URL = 'https://api.attentivemobile.com'
 STATUS_INTERVAL = 10
 
